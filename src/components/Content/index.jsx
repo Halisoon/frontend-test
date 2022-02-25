@@ -29,6 +29,9 @@ const Content = () => {
   const { storyCheck } = cookies;
 
   useEffect(() => {
+    const total = array.reduce((a, b) => a + b, 0);
+    console.log("🚀 ~ file: index.jsx ~ line 33 ~ useEffect ~ total", total);
+
     // check cookie
     if (storyCheck) {
       // fillter data in cookie
