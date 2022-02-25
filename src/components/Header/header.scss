@@ -1,0 +1,35 @@
+.header {
+    padding: 20px 0 15px;
+
+    &__user {
+        display: flex;
+        align-items: center;
+
+        &-info {
+            margin-right: 20px;
+            .title {
+                color: #969696;
+            }
+            .name {
+                text-align: end;
+            }
+        }
+
+        &-avatar {
+            border-radius: 50%;
+        }
+    }
+}
+
+.banner {
+    margin: auto;
+    padding: 90px 0 85px;
+    text-align: center;
+
+    background-color: #29b363;
+    color: #fff;
+
+    h1 {
+        margin-bottom: 10px;
+    }
+}
