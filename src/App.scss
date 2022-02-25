@@ -7,8 +7,13 @@
   -webkit-tap-highlight-color: transparent;
   font-family: Roboto, sans-serif;
 }
+body {
+}
 .App {
   background-color: #fcfcfc;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
 .container {
   max-width: 1132px;

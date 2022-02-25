@@ -64,7 +64,7 @@ const Content = () => {
           stories.map((story) => <p key={story.readKey}>{story.story}</p>)
         )}
       </div>
-      {!stories[0] && (
+      {stories[0] && (
         <div className="buttonJoke">
           <button className="funny" onClick={handleButton}>
             This is Funny!

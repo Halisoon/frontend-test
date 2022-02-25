@@ -4,7 +4,11 @@ const Footer = () => {
   return (
     <div
       className="footer"
-      style={{ borderTop: "1px solid #cccccc", padding: "1rem 0" }}
+      style={{
+        borderTop: "1px solid #cccccc",
+        padding: "1rem 0",
+        marginTop: "auto",
+      }}
     >
       <div className="container" style={{ textAlign: "center" }}>
         <p style={{ color: "#c4c4c4", marginBottom: "1rem" }}>
